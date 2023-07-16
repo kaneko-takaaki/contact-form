@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todo</title>
-   <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}">
   <link rel="stylesheet" href="{{ asset('css/common.css') }}">
   @yield('css')
 </head>
@@ -18,14 +18,14 @@
       <a class="header__logo" href="/">
         Todo
       </a>
-      <nav>
+       <nav>
         <ul class="header-nav">
-          <li class="header-nav__item">
-            <a class="header-nav__link" href="/categories">カテゴリ一覧</a>
-            </li>
-            </ul>
-            </nav>
-            </div>
+           <li class="header-nav__item">
+             <a class="header-nav__link" href="/categories">カテゴリ一覧</a>
+           </li>
+         </ul>
+       </nav>
+     </div>
     </div>
   </header>
 
